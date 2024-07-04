@@ -1,0 +1,65 @@
+@media (max-width: 1024px) {
+  .about_container {
+    flex-direction: column;
+
+    img {
+      height: 400px;
+    }
+    p {
+      margin-top: -50px;
+      line-height: 1.5em;
+    }
+  }
+
+  #competences .skill_card_container {
+    flex-wrap: wrap;
+    padding: 60px 0px;
+  }
+
+  .project_card_container {
+    gap: 70px;
+  }
+
+  .modal {
+    height: 350px;
+    width: 80%;
+
+    .modal_header {
+      h5 {
+        font-size: 30px;
+      }
+    }
+
+    img {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  header {
+    flex-direction: column;
+    margin: 10px;
+
+    nav ul {
+      justify-content: space-between;
+
+      li a {
+        font-size: 35px;
+      }
+    }
+  }
+
+  .about_container {
+    margin: 25px;
+  }
+
+  .modal {
+    height: 450px;
+    width: 85%;
+
+    p {
+      font-size: 12px;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+#competences {
+  background-color: $primary_color;
+
+  h3 {
+    color: $secondary_color;
+    padding-top: 50px;
+    margin: 0px;
+  }
+  
+  hr {
+    margin: 0px auto;
+  }
+
+  .skill_card_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 120px 0px;
+
+    .skill_card {
+      width: 100px;
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      border: solid 2px $tertiary_color;
+      border-radius: 10px;
+
+      p {
+        color: $secondary_color;
+        margin-top: 5px;
+      }
+
+      .skill_icon {
+        color: $secondary_color;
+        font-size: 50px;
+      }
+    }
+  }
+}

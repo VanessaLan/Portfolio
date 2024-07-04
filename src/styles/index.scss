@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap");
+
+$primary_color: #000000;
+$secondary_color: #ffffff;
+$tertiary_color: #cc6699;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  margin: 50px 0px;
+  text-align: center;
+  font-family: "Tangerine", sans-serif;
+  font-size: 50px;
+
+}
+
+hr {
+  border: none;
+  border-top: $tertiary_color solid 3px;
+  width: 50px;
+  margin: -50px auto 0px auto;
+}
+
+@import "partials/header";
+@import "partials/banner";
+@import "partials/about";
+@import "partials/skills";
+@import "partials/projects";
+@import "partials/footer";
+@import "partials/modal";
+@import "partials/responsive";

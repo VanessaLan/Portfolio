@@ -1,0 +1,15 @@
+.about_container {
+  margin: 0px 100px;
+  display: flex;
+  align-items: center;
+  gap: 70px;
+
+  img {
+    height: 500px;
+  }
+
+  p {
+    line-height: 2em;
+    padding-bottom: 30px;
+  }
+}

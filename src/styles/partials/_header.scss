@@ -1,0 +1,47 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+  
+    h1 {
+      font-family: "Tangerine", sans-serif;
+      font-size: 70px;
+      color: $primary_color;
+    }
+  
+    nav ul {
+      display: flex;
+      gap: 20px;
+  
+      li {
+        list-style-type: none;
+  
+        a {
+          text-decoration: none;
+          color: $primary_color;
+          font-family: "Tangerine", sans-serif;
+          font-size: 40px;
+          font-weight: bold;
+          position: relative;
+  
+          &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -3px;
+            width: 0;
+            height: 3px;
+            background-color: $tertiary_color;
+            transition: width 0.4s;
+            transform-origin: left;
+          }
+  
+          &:hover::after {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  

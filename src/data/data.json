@@ -1,0 +1,50 @@
+
+[
+    {
+        "id": "1",
+        "title": "Oh My Food",
+        "cover": "ohmyfood.webp",
+        "presentation": "Projet ayant pour but de travailler sur l'interface mobile-first du site d’une start-up de restauration.",
+        "objectifs": "Intégration de la maquette Figma en mobile-first, utilisation de Sass, implémentation d'animations CSS et versionnage du projet avec Git et GitHub.",
+        "picture": "modal_ohmyfood.webp",
+        "tags": ["HTMLL5", "CSS3", "Animations CSS", "Sass", "Responsive Design"],
+        "gitHub": "https://github.com/VanessaLan/P4",
+        "site": "https://vanessalan.github.io/P4/"
+    },
+    {
+        "id": "2",
+        "title": "Sophie Bluel",
+        "cover": "sophiebluel.webp",
+        "presentation": "Projet ayant pour but de créer une page web dynamique pour le site internet d'une architecte d'intérieur.",
+        "objectifs": "Utilisation de JavaScript, communication avec une API, gestion des événements utilisateurs et manipulation des éléments du DOM, création d'une page de connexion pour l'administrateur et création d'une modale permettant d'uploader de nouveaux médias.",
+        "picture": "modal_sophiebluel.webp",
+        "tags": ["HTMLL5", "CSS3", "Javascript"],
+        "gitHub": "https://github.com/VanessaLan/P6",
+        "site": null
+      },
+      {
+        "id": "3",
+        "title": "Kasa",
+        "cover": "kasa.webp",
+        "presentation": "Projet ayant pour but d'implémenter le front-end de l'application Kasa, entreprise de location d’appartements entre particuliers.",
+        "objectifs": "Utilisation de React pour la création d'interfaces utilisateur, de React Router pour la configuration de la navigation entre les différentes pages de l'application, de données simulées extraites d'un fichier JSON et de Node.js pour exécuter du code JavaScript en dehors du navigateur.",
+        "picture": "modal_kasa.webp",
+        "tags": ["Animations CSS", "Sass", "React", "Responsive Design"],
+        "gitHub": "https://github.com/VanessaLan/P8",
+        "site": null
+      },
+
+
+      {
+        "id": "4",
+        "title": "Argent Bank",
+        "cover": "argentbank.webp",
+        "presentation": "Projet ayant pour but de travaillerez sur le développement front-end d'Argent Bank, une application bancaire en ligne.",
+        "objectifs": "Intégration du front-end avec le back-end via des appels API, utilisation de React pour développer l'interface utilisateur, utilisation de Redux pour gérer les données de l'application, utilisation de Swagger pour définir les points d'accès de l'API et utilisation de Node.js pour exécuter le code JavaScript côté serveur.",
+        "picture": "modal_argentbank.webp",
+        "tags": ["Responsive Design", "React", "Redux", "MongoDB"],
+        "gitHub": "https://github.com/VanessaLan/P11",
+        "site": null
+      }
+  ]
+  

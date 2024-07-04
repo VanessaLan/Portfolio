@@ -1,0 +1,17 @@
+footer {
+    background-color: $primary_color;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+    .footer_icon {
+        font-size: 30px;
+        color: $secondary_color;
+
+        &:hover {
+            color: $tertiary_color;
+        }
+    }
+}

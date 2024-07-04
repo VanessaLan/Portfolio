@@ -1,0 +1,31 @@
+.banner {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $primary_color;
+
+   .banner_content {
+    position: absolute;
+    text-align: center;
+
+    .laptop_icon {
+        font-size: 100px;
+        padding-bottom: 20px;
+        color: $secondary_color;
+    }
+
+    h2 {
+        font-family: "Tangerine", sans-serif;
+        font-size: 70px;
+        color: $tertiary_color;
+    }
+
+    p {
+        font-size: 18px;
+        color: $secondary_color;
+    }
+   }
+}

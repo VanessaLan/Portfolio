@@ -1,0 +1,53 @@
+.project_card_container {
+  padding: 50px 0px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
+  justify-content: center;
+  gap: 50px;
+
+  a {
+    text-decoration: none;
+    color: $primary_color;
+  }
+
+  .project_card {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+    img {
+      height: 300px;
+      width: 300px;
+      object-fit: cover;
+    }
+
+    h4 {
+      position: absolute;
+      bottom: 0px;
+      text-align: center;
+      padding: 20px 0px;
+      background: $tertiary_color;
+      opacity: 0.7;
+      width: 100%;
+      font-family: "Tangerine", sans-serif;
+      font-size: 50px;
+      font-weight: bold;
+      margin-bottom: -80px;
+    }
+
+    &:hover {
+      h4 {
+        margin-bottom: 0px;
+        transition: margin-bottom 0.4s;
+      }
+    }
+
+    &:not(:hover) {
+      h4 {
+        transition: margin-bottom 0.4s;
+      }
+    }
+  }
+}

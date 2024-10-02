@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.4c1fcc91.css",
+    "main.js": "/Portfolio/static/js/main.b5832feb.js",
+    "static/media/ohmyfood.webp": "/Portfolio/static/media/ohmyfood.29d9caa97bf55d0ce788.webp",
+    "static/media/sophiebluel.webp": "/Portfolio/static/media/sophiebluel.d2ae9def2470a1716905.webp",
+    "static/media/argentbank.webp": "/Portfolio/static/media/argentbank.de2cb3a916836a996d13.webp",
+    "static/media/kasa.webp": "/Portfolio/static/media/kasa.9b9a678d0cccb6b45082.webp",
+    "static/media/modal_ohmyfood.webp": "/Portfolio/static/media/modal_ohmyfood.b7a6a25f26362d329d13.webp",
+    "static/media/modal_sophiebluel.webp": "/Portfolio/static/media/modal_sophiebluel.0cb8c372ef9743e3cc64.webp",
+    "static/media/avatar.webp": "/Portfolio/static/media/avatar.a984f1c160bd12bdffcb.webp",
+    "static/media/modal_kasa.webp": "/Portfolio/static/media/modal_kasa.2c922c51b6e612eea02b.webp",
+    "static/media/modal_argentbank.webp": "/Portfolio/static/media/modal_argentbank.8cd6e01ba05f699e4c7c.webp",
+    "index.html": "/Portfolio/index.html",
+    "main.4c1fcc91.css.map": "/Portfolio/static/css/main.4c1fcc91.css.map",
+    "main.b5832feb.js.map": "/Portfolio/static/js/main.b5832feb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c1fcc91.css",
+    "static/js/main.b5832feb.js"
+  ]
+}

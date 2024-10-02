@@ -16,7 +16,7 @@ const Footer = () => {
       <a href="https://www.linkedin.com/in/vanessa-langlois-2b8862328/" 
         target="_blank" 
         rel="noreferrer" 
-        aria-label="Lien vers mes repo GitHub">
+        aria-label="Lien vers mon profil Linkedin">
         <FontAwesomeIcon className="footer_icon" icon={faLinkedinIn} />
       </a>
 
